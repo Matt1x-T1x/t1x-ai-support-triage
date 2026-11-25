@@ -1,0 +1,27 @@
+{
+  "name": "t1x-ai-support-triage",
+  "version": "1.0.0",
+  "description": "Sistema inteligente de triagem de atendimento com IA resiliente, JSON estruturado (Zod), fallback sem perda de dados, reprocessamento, evals com dataset rotulado e CI.",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "eval": "tsx src/evals/run-evals.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.4",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.7"
+  }
+}

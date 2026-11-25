@@ -1,0 +1,92 @@
+[
+  {
+    "id": "eval-01",
+    "message": "Oi, veio uma cobrança duplicada no meu cartão este mês!",
+    "expectedCategory": "BILLING_DUPLICATE",
+    "expectedDepartment": "FINANCEIRO"
+  },
+  {
+    "id": "eval-02",
+    "message": "Fui cobrado duas vezes na fatura de novembro, preciso de estorno.",
+    "expectedCategory": "BILLING_DUPLICATE",
+    "expectedDepartment": "FINANCEIRO"
+  },
+  {
+    "id": "eval-03",
+    "message": "Paguei via Pix mas gerou cobrança duplicada no boleto.",
+    "expectedCategory": "BILLING_DUPLICATE",
+    "expectedDepartment": "FINANCEIRO"
+  },
+  {
+    "id": "eval-04",
+    "message": "Esqueci minha senha e não consigo entrar na conta.",
+    "expectedCategory": "ACCOUNT_ACCESS",
+    "expectedDepartment": "SUPORTE_CONTA"
+  },
+  {
+    "id": "eval-05",
+    "message": "Minha conta foi bloqueada e o código de verificação não chega.",
+    "expectedCategory": "ACCOUNT_ACCESS",
+    "expectedDepartment": "SUPORTE_CONTA"
+  },
+  {
+    "id": "eval-06",
+    "message": "Não estou conseguindo fazer login desde ontem.",
+    "expectedCategory": "ACCOUNT_ACCESS",
+    "expectedDepartment": "SUPORTE_CONTA"
+  },
+  {
+    "id": "eval-07",
+    "message": "Quero cancelar minha assinatura ainda hoje.",
+    "expectedCategory": "CANCELLATION",
+    "expectedDepartment": "RETENCAO"
+  },
+  {
+    "id": "eval-08",
+    "message": "Como faço o cancelamento do plano mensal?",
+    "expectedCategory": "CANCELLATION",
+    "expectedDepartment": "RETENCAO"
+  },
+  {
+    "id": "eval-09",
+    "message": "Não quero mais renovar o serviço, pode encerrar assinatura.",
+    "expectedCategory": "CANCELLATION",
+    "expectedDepartment": "RETENCAO"
+  },
+  {
+    "id": "eval-10",
+    "message": "O painel fica em tela branca e dá erro 500 ao salvar.",
+    "expectedCategory": "TECHNICAL_BUG",
+    "expectedDepartment": "ENGENHARIA"
+  },
+  {
+    "id": "eval-11",
+    "message": "Encontrei um bug: o relatório não carrega e fica travando.",
+    "expectedCategory": "TECHNICAL_BUG",
+    "expectedDepartment": "ENGENHARIA"
+  },
+  {
+    "id": "eval-12",
+    "message": "O aplicativo deu crash quando tentei exportar os dados.",
+    "expectedCategory": "TECHNICAL_BUG",
+    "expectedDepartment": "ENGENHARIA"
+  },
+  {
+    "id": "eval-13",
+    "message": "Vocês oferecem plano anual com desconto para equipes?",
+    "expectedCategory": "GENERAL_QUESTION",
+    "expectedDepartment": "ATENDIMENTO_GERAL"
+  },
+  {
+    "id": "eval-14",
+    "message": "Qual o horário de atendimento comercial de vocês?",
+    "expectedCategory": "GENERAL_QUESTION",
+    "expectedDepartment": "ATENDIMENTO_GERAL"
+  },
+  {
+    "id": "eval-15",
+    "message": "Gostaria de saber se o sistema funciona no macOS também.",
+    "expectedCategory": "GENERAL_QUESTION",
+    "expectedDepartment": "ATENDIMENTO_GERAL"
+  }
+]

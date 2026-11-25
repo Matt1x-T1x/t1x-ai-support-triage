@@ -1,0 +1,14 @@
+services:
+  triage-api:
+    build: .
+    ports:
+      - "3003:3003"
+    environment:
+      - PORT=3003
+      - AI_PROVIDER=heuristic
+      - DATABASE_PATH=/app/data/triage.db
+    volumes:
+      - triage_data:/app/data
+
+volumes:
+  triage_data:
